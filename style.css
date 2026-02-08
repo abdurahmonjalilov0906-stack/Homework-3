@@ -8,8 +8,9 @@ header {
     background-repeat: no-repeat;
     background-image: url(./img.png/Rectangle\ 47.jpg);
     color: white;
+    position: relative;
 }
-.top-part {
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,9 +40,31 @@ header {
 .hide-in-desk {
     display: none;
 }
-
-
-
+.sector-1 h2 {
+    font-size: 85px;
+    font-weight: bolder;
+    padding: 13% 0px 30px;
+}
+.sector-1  {
+padding-left: 50px;
+}
+.sector-1 p {
+    font-size: 25px;
+    padding-bottom: 30px;
+    color: rgba(210, 210, 210, 1);
+}
+.but-1 {
+    font-size: 20px;
+    background-color:rgba(14, 158, 47, 1) ;
+    padding: 20px 35px;
+     color: white;
+     border: none;
+}
+.img-1 {
+    position: absolute;
+    top: 80%;
+    left: 90%;
+}
 
 
 
@@ -50,7 +73,10 @@ header {
 
 
 @media (max-width:510px) {
-    .top-part {
+    header {
+        height: 180vh;
+    }
+    nav {
         background-color: rgba(54, 53, 53, 0.767);
         justify-content: space-between;
         padding:20px 20px ;
@@ -60,5 +86,20 @@ header {
     }
     .hide-in-desk {
         display: block;
+    }
+    .sector-1 {
+        padding: 30px 20px 100px;
+        
+    }
+    .sector-1 h2 {
+        font-size: 35px;
+    }
+    .but-1 {
+        padding: 20px 27%;
+    }
+    .img-1 {
+        top:80%;
+        left:80%;
+        
     }
 }
