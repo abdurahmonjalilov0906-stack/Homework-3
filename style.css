@@ -207,6 +207,76 @@ nav {
     grid-area: 2/3/3/4;
 }
 
+.section-3 {
+     width: 80%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img.png/Вход-1\ 1.jpg);
+    margin: 100px auto;
+    color: white;
+}
+.article-3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 0px;
+}
+.sector-7 h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 550px;
+    margin-bottom: 50px;
+}
+.par-3 {
+    color: rgba(14, 158, 47, 1);
+    padding: 15px;
+    border-top-right-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 20px;
+    height: 20px;
+}
+.play {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: rgba(14, 158, 47, 1);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.par-4 {
+    font-size: 20px;
+    color: rgba(210, 210, 210, 1);
+    width: 300px;
+}
+.sector-8 {
+    width: 450px;
+    height: 590px;
+    display: flex;
+    padding: 0px 30px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(14, 158, 47, 1);
+    border-top-right-radius: 150px;
+}
+.sec-1 h5 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+.sec-1 p {
+    font-size: 20px;
+    color: rgba(242, 242, 242, 1);
+}
+.sec-1 {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
 
 
 
@@ -298,5 +368,26 @@ nav {
     .par-2{
         color: rgba(146, 147, 143, 1);
         margin: 0px 20px 70px;
+    }
+    .section-3 {
+        width: 100%;
+        height: auto;
+    }
+    .article-3 {
+      flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px 0px;
+    }
+    .sector-7 h2 {
+        font-size: 30px;
+        width: 350px;
+    }
+    .sector-7 {
+        padding: 50px 30px 30px;
+    }
+    .sector-8 {
+        width: 90%;
+        height: 180vh;
+        padding: 20px 20px 0px;
     }
 }
