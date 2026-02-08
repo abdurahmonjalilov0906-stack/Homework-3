@@ -157,7 +157,8 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 450px 300px;
     gap: 50px 50px;
-    margin: 0px 10%;
+    margin: 0px 10% 150px;
+
 }
 .sector-2 {
     grid-area: 1/1/2/2;
