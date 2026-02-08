@@ -208,7 +208,7 @@ nav {
 }
 
 .section-3 {
-     width: 80%;
+    width: 80%;
     height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,18 +216,21 @@ nav {
     margin: 100px auto;
     color: white;
 }
+
 .article-3 {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 100px 0px;
 }
+
 .sector-7 h2 {
     font-size: 50px;
     font-weight: bolder;
     width: 550px;
     margin-bottom: 50px;
 }
+
 .par-3 {
     color: rgba(14, 158, 47, 1);
     padding: 15px;
@@ -236,6 +239,7 @@ nav {
     width: 20px;
     height: 20px;
 }
+
 .play {
     display: flex;
     align-items: center;
@@ -244,6 +248,7 @@ nav {
     font-size: 20px;
     margin-bottom: 30px;
 }
+
 .par-4 {
     font-size: 20px;
     color: rgba(210, 210, 210, 1);
@@ -260,28 +265,34 @@ nav {
     background-color: rgba(14, 158, 47, 1);
     border-top-right-radius: 150px;
 }
+
 .sec-1 h5 {
     font-size: 30px;
     padding-bottom: 20px;
     color: rgba(255, 255, 255, 1);
 }
+
 .sec-1 p {
     font-size: 20px;
     color: rgba(242, 242, 242, 1);
 }
+
 .sec-1 {
     margin-bottom: 60px;
 }
+
 .sector-9 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 30px;
 }
+
 .sector-9 h3 {
     font-size: 50px;
     color: rgba(73, 75, 68, 1);
 }
+
 .article-4 {
     display: flex;
     align-items: center;
@@ -290,18 +301,22 @@ nav {
     color: rgba(146, 147, 143, 1);
     padding-bottom: 5px;
 }
+
 .par-5 {
     padding-right: 30%;
 }
+
 .section-4 {
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
 
 }
+
 .img-5 {
-   margin: auto;
+    margin: auto;
 }
+
 .section-5 {
     display: flex;
     flex-direction: column;
@@ -312,23 +327,99 @@ nav {
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
-    margin:50px auto;
+    margin: 50px auto;
     background-image: url(./img.png/Rectangle\ 47\ \(1\).jpg);
 }
+
 .section-5 h2 {
     font-size: 45px;
     margin-bottom: 30px;
 }
+
 .section-5 p {
     font-size: 20px;
     text-align: center;
     margin-bottom: 30px;
 }
+
 .but-4 {
-    background-color:rgba(14, 158, 47, 1) ;
+    background-color: rgba(14, 158, 47, 1);
     color: white;
     padding: 15px 40px;
     border: none;
+}
+
+.sector-10 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px 30px;
+    align-items: center;
+    border-bottom: 1px solid rgba(73, 75, 68, 1);
+    width: 90%;
+    margin: auto 5%;
+    margin-bottom: 50px;
+
+}
+
+.sector-10 h2 {
+    font-size: 50px;
+    color: rgba(146, 147, 143, 1);
+}
+
+.article-6 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-6 {
+    border: 1px solid rgba(73, 75, 68, 1);
+    padding: 15px;
+    border-top-right-radius: 20px;
+}
+
+.section-6 {
+    display: flex;
+    gap: 50px;
+    padding-left: 5%;
+    margin-bottom: 150px;
+    overflow: scroll;
+}
+
+.sector-11 {
+    min-width: 25%;
+    height: 420px;
+    padding: 30px 20px;
+    background-color: rgba(246, 246, 247, 1);
+}
+
+.sector-11 h5 {
+    font-size: 35px;
+    color: rgba(73, 75, 68, 1);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(73, 75, 68, 1);
+}
+
+.par-6 {
+    font-size: 30px;
+    color: rgba(14, 158, 47, 1);
+    margin: 20px 0px 20px;
+}
+.par-7 {
+    font-size: 25px;
+    color:rgba(146, 147, 143, 1) ;
+    margin-bottom: 50px;
+}
+.article-7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article-7 p {
+    font-weight: 700;
+}
+.article-7 img {
+    width: 10%;
 }
 
 
@@ -418,40 +509,66 @@ nav {
         margin: 30px 20px 20px;
     }
 
-    .par-2{
+    .par-2 {
         color: rgba(146, 147, 143, 1);
         margin: 0px 20px 70px;
     }
+
     .section-3 {
         width: 100%;
         height: auto;
     }
+
     .article-3 {
-      flex-direction: column;
-    gap: 20px;
-    padding: 20px 0px 0px;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0px 0px;
     }
+
     .sector-7 h2 {
         font-size: 30px;
         width: 350px;
     }
+
     .sector-7 {
         padding: 50px 30px 30px;
     }
+
     .sector-8 {
         width: 90%;
         height: 180vh;
         padding: 20px 20px 0px;
     }
+
     .sector-9 {
         flex-direction: column;
         padding: 0px 20px;
     }
+
     .img-5 {
         width: 100%;
     }
+
     .sector-9 h3 {
         font-size: 35px;
         padding-bottom: 20px;
     }
+
+    .sector-10 {
+        flex-direction: column;
+        border-bottom: none;
+    }
+
+    .sector-10 h2 {
+        font-size: 40px;
+    }
+
+    .img-7 {
+        margin: 20px 0px 0px 80%;
+    }
+    .sector-11 {
+        min-width: 90%;
+        height: auto;
+    }
+
 }
